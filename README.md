@@ -25,14 +25,20 @@ There is no build step of our own: every page is plain Markdown.
 
 ## Keeping the privacy policy true
 
-The policy says Pupu makes no network requests of any kind. Pupu is a native
-SwiftUI app with no networking code and no third-party SDKs, so that holds as
-long as:
+The policy says Pupu sends nothing to anyone but the user's own iCloud. Pupu is
+a native SwiftUI app with no networking code of its own and no third-party
+SDKs, so that holds as long as:
 
 - the only way out is a link the user taps in Me → About, which Safari opens;
 - icon suggestions keep using Apple's on-device Foundation Models and nothing
   that runs in the cloud;
-- reminders stay local notifications, with no push service.
+- reminders stay local notifications;
+- sync (from 2.6) stays in the user's PRIVATE CloudKit database
+  (`iCloud.com.minhthang.pupu`), with the plan in encrypted fields, and the
+  only push is CloudKit's silent sync notification.
+
+Because the developer cannot read a user's private CloudKit database, App
+Store Connect's App Privacy answer stays "Data Not Collected".
 
 If any of that changes, the privacy policy here, the App Review notes and the
 App Privacy answers in App Store Connect have to change together.
