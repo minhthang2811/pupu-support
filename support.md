@@ -9,8 +9,21 @@ help.
 ## Common questions
 
 **Where is my data stored?**
-On your iPhone only. Pupu makes no network requests and has no account system.
-See the [Privacy Policy](./privacy-policy.md).
+On your iPhone, and in your own private iCloud if you are signed in to iCloud
+(from Pupu 2.6). There is no Pupu account and no Pupu server; nobody but you
+can read it. Me → Your data shows where it is and whether it is synced. See the
+[Privacy Policy](./privacy-policy.md).
+
+**How do I move Pupu to a new iPhone?**
+On the old iPhone, open Pupu once with Pupu 2.6 or later, so everything is in
+iCloud (Me → Your data says "In your iCloud"). On the new iPhone, sign in to
+the same iCloud account, install Pupu and open it: it says it is looking for
+your Pupu in iCloud, then opens on your plan, routines, postcards and tricks.
+
+**My two iPhones don't match.**
+Check both are signed in to the same iCloud account, with iCloud turned on for
+Pupu (Settings → your name → iCloud), and that Me → Your data → Sync with
+iCloud is on. Then tap Sync now there.
 
 **My reminders stopped arriving.**
 Check Settings → Pupu → Notifications on your iPhone. If notification permission
@@ -41,4 +54,6 @@ Me → Language. Pupu follows your iPhone's language by default, and you can pic
 English or Tiếng Việt there instead.
 
 **Will my data survive deleting the app?**
-No. Deleting Pupu removes its storage with it.
+If iCloud sync is on, yes: reinstall Pupu on an iPhone signed in to the same
+iCloud and your plan comes back. If sync is off, deleting Pupu removes its
+storage with it.

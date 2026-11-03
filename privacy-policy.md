@@ -1,14 +1,16 @@
 # Privacy Policy for Pupu
 
-**Last updated: 22 October 2026**
+**Last updated: 4 November 2026**
 
-Pupu is a day planner that runs entirely on your device.
+Pupu is a day planner that keeps your plan on your iPhone and, if you use
+iCloud, in your own private iCloud, so it can follow you to a new iPhone.
 
 ## What Pupu collects
 
-**Nothing.** Pupu has no servers, no accounts, and no analytics. It makes no
-network requests of any kind. No data about you or your use of the app is
-transmitted anywhere, to us or to anyone else.
+**Nothing.** Pupu has no servers of its own, no accounts, and no analytics. No
+data about you or your use of the app is ever sent to us or to anyone else. The
+only place Pupu sends anything is your own iCloud, as described under
+[iCloud sync](#icloud-sync) below.
 
 ## What Pupu stores, and where
 
@@ -19,9 +21,35 @@ Pupu's friendship hearts, the tricks he has learned and the postcards he has
 sent you; your language, appearance, sound and haptics choices; and when you
 last opened the app, so he can say hello the right way.
 
-That data is removed when you delete the app. If you have iCloud Backup enabled,
+That copy is removed when you delete the app. If you have iCloud Backup enabled,
 it may be included in your device backup; that backup is governed by
 [Apple's privacy policy](https://www.apple.com/legal/privacy/), not ours.
+
+## iCloud sync
+
+From version 2.6, Pupu also keeps your plan in your iCloud account, so every
+iPhone signed in to it has the same plan, and a new iPhone picks up where the
+old one left off.
+
+- **What is synced:** your activities, to-dos, routines, settings (appearance,
+  sounds, haptics, reminder settings, day layout), and Pupu's hearts, tricks,
+  postcards and adventures. Your language choice, when you last opened the app,
+  and notification permission stay on each iPhone.
+- **Where it goes:** Apple's iCloud, into the *private* database of your own
+  iCloud account, in a container only Pupu uses. We, the developer, cannot see
+  or read it. The contents are stored in encrypted fields, protected with keys
+  from your iCloud Keychain (end-to-end encryption). Storage counts toward your
+  iCloud storage and is governed by
+  [Apple's privacy policy](https://www.apple.com/legal/privacy/).
+- **Push notifications:** to hear that another of your iPhones changed the
+  plan, iCloud sends Pupu silent push notifications through Apple's push
+  service. They carry no part of your plan. The push token is managed by iOS
+  and iCloud; Pupu never reads it or sends it anywhere.
+- **Your choice:** sync is on when you are signed in to iCloud. Turn it off in
+  Pupu under Me → Your data → Sync with iCloud, or for all of iCloud under
+  Settings → your name → iCloud. To delete Pupu's copy in iCloud, use
+  Settings → your name → iCloud → Manage Storage → Pupu → Delete Data; Pupu
+  then stops syncing and keeps the plan on your iPhone.
 
 ## Icon suggestions
 
@@ -35,8 +63,9 @@ on your iPhone: the text is not sent to Apple, to us, or to anyone else.
 If you turn on reminders, Pupu schedules **local notifications** — they are
 created on your device by your device, for activities with a start time and
 to-dos with a due time that you yourself entered, and (unless you switch it
-off) one when Pupu gets home from an adventure. No push notification service is
-involved and no device token is ever generated or sent.
+off) one when Pupu gets home from an adventure. Reminders never use a push
+service; the only push notifications Pupu receives are iCloud's silent ones
+for syncing, described above.
 
 You can revoke notification permission at any time in
 Settings → Pupu → Notifications, or turn reminders off inside Pupu.

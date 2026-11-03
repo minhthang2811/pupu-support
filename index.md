@@ -8,7 +8,8 @@ Pupu himself lives in the app. Play with him and he learns tricks; finish things
 and he gets treats; finish three in a day and he goes exploring, then sends you
 a postcard.
 
-Everything you enter stays on your device. In English and Tiếng Việt.
+Everything you enter stays on your device and in your own private iCloud, so it
+follows you to a new iPhone. In English and Tiếng Việt.
 
 - [Privacy Policy](./privacy-policy.md)
 - [Support](./support.md)
